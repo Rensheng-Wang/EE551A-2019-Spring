@@ -32,22 +32,23 @@ def lists():
     """
     n = "Stevens is awesome"
 
-    # Split variable n on a delimiter space into a list of substrings
+    # Split variable n on a delimiter space into a list of substrings as p
 
-    # Get all the items past the first of the third substring
+    # Get r as all the items past the first of the third substring
 
-    # Create a 3 x 3 matrix as nested list such that
+    # Create a 3 x 3 matrix as nested list such that 
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
 
-    # Collect the items in the last column of matrix A using list comprehension
+    # Collect the items in the last column of matrix A using list comprehension as c
 
-    # Collect only the even items of the diagonal of matrix A using list comprehension
+    # Collect only the even items of the diagonal of matrix A using list comprehension as d
 
     # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
     # by passing it to the built-in ord function. Generate a list of these integers to represent
     # each character of the string "Stevens" using list comprehension.
+    # return o as the ASCII value of "Stevens"
 
     return p, r, c, d, o
 
@@ -61,10 +62,9 @@ def dictionaries():
     #   quantity => 4
     #   color => "green"
 
-    # Get the item in dictionary f that the key "fruit" maps to
+    # Return a as the item in dictionary f that the key "fruit" maps to
 
-    # Increase the quantity of f by 1
-    # IMPLEMENT IT HERE
+    # Increase the quantity of f by 1 and return the value as f
 
     # Create a nested dictionary where:
     #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
@@ -72,11 +72,10 @@ def dictionaries():
     #   age => 85
 
     # Add "programmer" to the list of jobs Grace has
-    # IMPLEMENT IT HERE
 
-    # Get the third job Grace has that you recently added
+    # Return p as the third job Grace has that you recently added
 
-    # Use the sort() function to get sorted keys of amazing_grace in alphabetically ascending order
+    # Use the sort() function to get sorted keys of amazing_grace in alphabetically ascending order, return the result as k
 
     return a, f, p, k
 
